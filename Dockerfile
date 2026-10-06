@@ -14,3 +14,5 @@ RUN apk add --no-cache \
     iproute2
 
 ENTRYPOINT ["/http-echo"]
+
+#CMD ["-listen=:8899", "-text='hello world'"]
